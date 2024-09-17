@@ -2,7 +2,7 @@
 {% include './generic/_reset.css' %}
 {% include './generic/_normalize.css' %}
 
-{% include './objects/_header.css' %}
+{% include './partials/_header.css' %}
 {% include './partials/_footer.css'%}
 
 {% include './objects/_layout.css' %}
