@@ -1,9 +1,9 @@
-<div class="team-module">
-  <h2 class="team-module__heading">{{ module.team_title or "No title found" }}</h2>
+<div class="team-module" role="region" aria-labelledby="team-module-heading">
+  <h2 id="team-module-heading" class="team-module__heading">{{ module.team_title or "No title found" }}</h2>
   <div class="team-module__container">
     {% if module.team %}
       {% for member in module.team %}
-      <div class="team-module__member">
+      <article class="team-module__member" tabindex="0" role="article">
         <img
           class="team-module__image"
           src="{{ resize_image_url(member.image.src, 300) }}"
@@ -12,9 +12,9 @@
           width="300"
         />
         <h3 class="team-module__name">{{ member.member_name }}</h3>
-        <p class="team-module__role">{{ member.role }}</p>
+        <p class="team-module__role">{{ member.role }}</p>  
         <p class="team-module__description">{{ member.description }}</p>
-      </div>
+      </article>
       {% endfor %}
     {% else %}
       <p>No team members available at the moment.</p>

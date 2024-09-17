@@ -10,7 +10,13 @@
 
 {% include './sections/_introduction.css'%}
 {% include './sections/_team.css'%}
-
+    
+    :focus {
+        outline: 3px solid #007BFF; 
+        box-shadow: 0 0 3px 2px rgba(0, 123, 255, 0.5); 
+        transition: outline 0.2s ease, box-shadow 0.2s ease;
+    }
+    
     body{
         font-family: {{ theme.global_fonts.secondary.font }}; 
         color: {{ theme.global_fonts.primary.color }};
