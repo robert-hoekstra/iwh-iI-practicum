@@ -13,6 +13,11 @@
             "opacity": true
           }
         },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brandSettings.primaryColor"
+          }
+        },
         "default": {
           "color": "#554A52"
         }
@@ -26,6 +31,11 @@
             "opacity": true
           }
         },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brandSettings.colors[1]"
+          }
+        },
         "default": {
           "color": "#F8FAFC"
         }
@@ -37,6 +47,11 @@
         "visibility": {
           "hidden_subfields": {
             "opacity": true
+          }
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brandSettings.colors[2]"
           }
         },
         "default": {

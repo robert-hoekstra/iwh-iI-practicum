@@ -1,11 +1,12 @@
 {
-  "label": "CMS Cheese Theme",
+  "label": "CMS Cheese Theme Enhanced",
   "author": {
     "name": "Robert Hoekstra",
     "email": "roberthoekstra@brightdigital.com",
     "url": "https://www.brightdigital.com/"
   },
   "preview_path": "./templates/home.html",
+  "screenshot_path": "./images/section-previews",
   "enable_domain_stylesheets": false,
   "responsive_breakpoints": [
     {

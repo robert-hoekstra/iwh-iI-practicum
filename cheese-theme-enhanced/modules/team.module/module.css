@@ -2,6 +2,7 @@
   background-color: {{ theme.global_colors.background_color.color }};
   border-radius: 0.5rem;
   font-family: Arial, sans-serif;
+  font-size: 1rem;
 }
 
 .team-module__heading {
@@ -48,14 +49,15 @@
 
 .team-module__role {
   font-size: 1.1rem;
-  color: #777;
+  color: #555;
   margin-bottom: 0.75rem;
   font-style: italic;
+  font-weight:500;
 }
 
 .team-module__description {
   font-size: 1rem;
-  color: #555;
+  color: #333;
 }
 
 @media (max-width: 900px) {
